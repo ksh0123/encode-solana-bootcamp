@@ -15,7 +15,7 @@ fn fizzbuzz() {
             },
             (0, _) => println!("{}: fizz", n),
             (_, 0) => println!("{}: buzz", n),
-            _ => (println!("{}", n)),
+            _ => println!("{}", n)
         }
     }
 
